@@ -1,0 +1,12 @@
+{
+  "name": "controle-gastos-database",
+  "version": "1.0.0",
+  "description": "Scripts utilitários do banco de dados",
+  "scripts": {
+    "test-connection": "node test-db-connection.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.21.0"
+  }
+}
