@@ -25,6 +25,7 @@ Aplicação fullstack para controle de despesas mensais com visualização gráf
 - [Como Rodar Localmente](#como-rodar-localmente)
 - [API — Endpoints](#api--endpoints)
 - [Banco de Dados](#banco-de-dados)
+- [Colaboradores](#colaboradores)
 
 ---
 
@@ -328,3 +329,11 @@ CREATE INDEX idx_ano_mes    ON global_infos(ano_data, mes_data);
 CREATE INDEX idx_tipo_conta ON global_infos(tipo_conta);
 CREATE INDEX idx_ja_pago    ON global_infos(ja_pago);
 ```
+
+---
+
+## Colaboradores
+
+| Colaborador | Contribuição |
+|-------------|-------------|
+| [João Victor Peretti](https://github.com/jvperetti) | UX/UI — definição de paleta de cores, usabilidade e experiência do usuário no frontend |
